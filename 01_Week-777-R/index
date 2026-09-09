@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔮 777</title>
+    <link href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+    <h1 class="heading_section"> 777-777-RICH </h1>
+    <section class="potato_section potato_section-top">
+        <!-- <iframe class="video_section"
+        src="https://player.vimeo.com/video/1225105079?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" 
+        width=100%;
+        height=auto;
+        display:block;
+        frameborder="0" 
+        allow="autoplay; fullscreen; picture-in-picture">
+        </iframe> -->
+        <img src="she-psychic.gif" alt="a psychic medium">
+        <p class="description_section">
+         ...... ever?
+         <br>now......?</br>
+         ...protection
+        </p>
+    </section>
+    <section class="potato_section potato_section-bottom">
+        <p>Call Now, and first 3 minutes of each call FREE, or
+        </p>
+        <form action="mailto:nigerian-prince@google.com" method="get">
+        <button class="button_section"> 
+            Click to Book Now </button>
+        </form>
+    </section>
+   
+</body>
+</html>

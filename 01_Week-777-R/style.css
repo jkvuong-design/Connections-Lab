@@ -1,0 +1,72 @@
+body {
+background-image: url('purple-gradient.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.potato_section-top {
+     background-color: #00000080;
+    border-radius: 30px; 
+    /* slight opacity background for hero/first content*/
+}
+.potato_section {
+    width: 100%;
+    margin: 10px 0;
+   font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+   font-size: 24px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly; /*so contents space dynamically */
+   align-items: center;
+}
+
+.potato_section-bottom {
+    font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+   font-size: 24px;
+    display: inline-block;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.button_section{
+    font-family: inherit; 
+    color: wheat; 
+   font-size: 24px;
+   margin-left: 10px;
+    background-color: blueviolet;
+    cursor: pointer;
+
+  /*animation color change*/
+    transition: background-color 0.5s ease-in; 
+}
+
+/*when mouse hovers over button*/
+.button_section:hover {
+  background-color: DarkGoldenRod;
+}
+
+.heading_section {
+   color: DarkGoldenRod; 
+   font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+   font-weight: bold; 
+   font-style: oblique;
+   font-size: 72px;
+
+}
+.video_section{
+    width: 47%;
+    display: inline-block;
+}
+.description_section {
+    font-family: monospace;
+   font-style: italic;
+   font-size: 42px;
+   color: wheat; 
+    width: 48vw;
+    display: inline-block;
+    margin: 10px 20px;
+}
