@@ -1,0 +1,71 @@
+body {
+    background-color: powderblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.project-heading {
+    text-align: center;
+    align-items: center;
+    margin-top: 80px 0;
+}
+
+.project-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-row {
+   margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+}
+
+.project-sub-heading {
+    font-size: 18px;
+    margin: 0;
+    white-space: nowrap; 
+}
+
+.project-entry {
+    display: flex;
+    gap: 8px;
+    flex: 1;
+}
+
+.project-disclaimer {
+    text-align: center;
+    font-size: 14px;
+    color: #BB3B0E;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.vendor-info {
+    text-align: center;
+    align-items: center;
+}
+
+.vendor-name {
+    text-align: center;
+    align-items: center;
+}
+
+.vendor-product {
+    text-align: center;
+    align-items: center;
+}
+
+.vendor-address {
+    text-align: center;
+    align-items: center;
+
+}
+
+
