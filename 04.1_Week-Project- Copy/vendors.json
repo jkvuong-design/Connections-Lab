@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Staples (formerly Party City)", "city": "NYC", "product": "Latex Balloons, Foil Balloons, Online Pick-Up", "address": "1280 Lexington Ave FRNT 2, New York, NY 10028"},
+  { "id": 2, "name": "Ruby's Party", "city": "Shanghai", "product": "A wide variety of balloons, Custom Orders Available", "address": "3333 Hongmei Rd, Minhang District, Shanghai, China, 201103"},
+  { "id": 3, "name": "Fantasia Ballon", "city": "Berlin", "product": "Latex Balloons, Foil Balloons, Custom Orders, Helium Services", "address": "Stresemannstraße 46, 10963 Berlin, Germany"}
+]
