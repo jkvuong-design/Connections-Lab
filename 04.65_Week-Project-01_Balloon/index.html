@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>party balloons!!!</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@v14.0.2/assets/svg/1f388.svg">
+    <!--  finally learned how to add a favicon!! 09/27 -->
+    <link href="style.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <h1 class="balloon-word">
+    <img src="letter-P.svg" alt="turn on sound if you want!" class="balloon-letter letter-p" data-sound="bubble-pop.mp3">
+    <img src="letter-A.svg" alt="A" class="balloon-letter letter-a" data-sound="bubble-pop.mp3">
+    <img src="letter-R.svg" alt="R" class="balloon-letter letter-r" data-sound="bubble-pop.mp3">
+    <img src="letter-T.svg" alt="T" class="balloon-letter letter-t" data-sound="bubble-pop.mp3">
+    <img src="letter-Y.svg" alt="Y" class="balloon-letter letter-y" data-sound="bubble-pop.mp3">
+    </h1>
+        <!--  added balloon letter images 09/28 -->
+        <!--  added sound effects when visitors hover over balloon letters 09/29 -->
+
+
+
+    <h1 class="project-heading"> Balloon Stores</h1>
+
+  
+<section class="project-container">
+    <div class="input-row">
+        <h2 class="project-sub-heading">Enter City Name:</h2>
+        <div class="project-entry">
+            <input id="city-input" type="text" placeholder="NYC, Berlin, Shanghai...">
+            <button class="button" id="store-button">Find a store!</button>
+        </div>
+    </div>
+
+    <p class="project-disclaimer">*disclaimer only the 3 cities above are available</p>
+
+    <div class="vendor-info">
+        <h3 class="vendor-name" id="v-name"></h3>
+        <p class="vendor-product" id="v-product"></p>
+        <p class="vendor-address" id="v-address"></p>
+    </div>
+</section>
+
+    <script src="app.js"></script>
+</body>
+</html>
