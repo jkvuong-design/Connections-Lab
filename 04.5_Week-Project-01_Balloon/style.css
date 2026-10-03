@@ -1,0 +1,184 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1668853853625-d38dbc599001?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.balloon-word {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.balloon-letter {
+  display: inline-block !important;
+  width: 80px;                    
+  height: auto;                     
+  margin: 0 -7px;                  
+  transition: transform 0.25s ease; 
+}
+
+.letter-p { transform: translateY(5px); }    
+.letter-a { transform: translateY(-8px); }  
+.letter-r { transform: translateY(0px); }   
+.letter-t { transform: translateY(12px); }  
+.letter-y { transform: translateY(-4px); }   
+
+.balloon-letter:hover {
+  transform: translateY(-15px);
+}
+
+.button {
+  border: .5px solid #0b132b;
+  background-color: #0b132b; 
+  border-radius: 8px;
+  font-style: italic;
+  color: #e0e7ff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+
+  /*animation color change, used in WK 1*/
+  transition: background-color 0.5s ease-in; 
+}
+
+/*when mouse hovers over button*/
+.button:hover {
+  background-color: DarkGoldenRod;
+}
+
+#city-input {
+  border-radius: 8px;
+  border: .5px solid #0b132b;     
+  padding: 8px 8px;          
+  outline: none;             
+}
+
+.project-heading {
+  text-align: center;
+  align-items: center;
+  margin: 80px 0 0 0;
+}
+
+.project-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.project-sub-heading {
+  font-size: 18px;
+  margin: 0;
+  white-space: nowrap; 
+}
+
+.project-entry {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+}
+
+.project-disclaimer {
+  text-align: center;
+  font-size: 14px;
+  color: #BB3B0E;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.vendor-info,
+.vendor-name,
+.vendor-product,
+.vendor-address {
+  text-align: center;
+  align-items: center;
+}
+
+#v-image {
+  display: block;
+  margin: 20px auto 0 auto;  
+  padding: 12px;             
+  background-color: #fdfbf7; 
+  border: 1px solid #e0d8cc;
+  border-radius: 4px;  
+
+  /*size the map images */
+  width: 300px;              
+  height: 300px;             
+  object-fit: cover;
+
+  /* drop shadow effect */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 
+              0 3px 6px rgba(0, 0, 0, 0.10);
+}
+
+/*floating emoji balloons from enter button*/
+.floating-emoji {
+  position: fixed;
+  font-size: 1.8rem;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -100%);
+  animation: floatUp 1.2s ease-out forwards;
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(0.6);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -60px) scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -140px) scale(0.8);
+  }
+}
+
+/* forces the footer down from gemini */
+.page-body-content {
+  flex: 1; 
+}
+
+.horizontal-footer {
+  background-color: #2B1919;
+  color: #ffffff;
+  padding: 20px;
+  font-family: sans-serif;
+  margin-top: auto; 
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+}
