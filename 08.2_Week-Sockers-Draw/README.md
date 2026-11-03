@@ -1,0 +1,1 @@
+Week 8.2 GitHub repo on drawing with sockets, emojis, and p5
